@@ -6,9 +6,7 @@
 
 	<xi:include href="00-front-back/book-info.ptx" />
 	
-	<book xml:id="main"><title> BASICS FOCUS </title>
-
-		<xi:include href="book-introduction.ptx" />
+	<book xml:id="main"><title> BASICS DEV </title>
 
 		<part><title> Fundamentals </title>
 		
@@ -16,44 +14,12 @@
 
 			<chapter><title> Introduction </title>
 
-				<xi:include href="part-1-fundamentals/chpt-1-introduction/p1-c1-intro.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-1-introduction/sect-1-examples/p1-c1-s1-intro.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-1-introduction/sect-2-definition/p1-c1-s2-intro.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-1-introduction/sect-3-variables/p1-c1-s3-intro.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-1-introduction/p1-c1-additional-examples.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-1-introduction/p1-c1-summary.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-1-introduction/p1-c1-orphans.ptx" />
-			
-			</chapter>
-
-			<chapter><title> Solutions </title>
-
-				<xi:include href="part-1-fundamentals/chpt-2-solutions/p1-c2-intro.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-2-solutions/sect-1-what-is-a-solution/p1-c2-s1.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-2-solutions/sect-2-verifying-solutions/p1-c2-s2.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-2-solutions/sect-3-types-of-solutions/p1-c2-s3.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-2-solutions/sect-4-visualizing-solutions/p1-c2-s4.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-2-solutions/sect-5-initial-conditions/p1-c2-s5.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-2-solutions/p1-c2-additional-examples.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-2-solutions/p1-c2-summary.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-2-solutions/p1-c2-orphans.ptx" />
-			
-			</chapter>
-
-			<chapter><title> Classification </title>
-
-				<xi:include href="part-1-fundamentals/chpt-3-classification/p1-c3-intro.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-3-classification/sect-1-order/p1-c3-s1-intro.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-3-classification/sect-2-linearity/p1-c3-s2-intro.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-3-classification/p1-c3-summary.ptx" />
-			
-			</chapter>
-
-			<chapter><title> Modeling </title>
-
-				<xi:include href="part-1-fundamentals/chpt-4-modeling/p1-c4-intro.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-4-modeling/sect-1-modeling/p1-c4-s1-intro.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-4-modeling/p1-c4-summary.ptx" />
+				<xi:include href="part-1-fundamentals/chpt-1-basics/p1-c1-intro.ptx" />
+				<xi:include href="part-1-fundamentals/chpt-1-basics/sect-1-what-is-a-de/p1-c1-s1.ptx" />
+				<xi:include href="part-1-fundamentals/chpt-1-basics/sect-2-definition/p1-c1-s2.ptx" />
+				<xi:include href="part-1-fundamentals/chpt-1-basics/sect-3-variables/p1-c1-s3.ptx" />
+				<xi:include href="part-1-fundamentals/chpt-1-basics/p1-c1-additional-examples.ptx" />
+				<xi:include href="part-1-fundamentals/chpt-1-basics/p1-c1-summary.ptx" />
 			
 			</chapter>
 

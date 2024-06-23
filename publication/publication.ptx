@@ -17,7 +17,7 @@
 		<!-- of five exercise types (inline/divisional/worksheet/reading/        -->
 		<!-- project). Some examples:                                            -->
 		<exercise-inline statement="yes" hint="yes" answer="no" solution="no" />
-		<exercise-divisional statement="yes" hint="yes" />
+		<exercise-divisional statement="no" hint="no" />
 		<!-- Style of fill-in-the-blanks: -->
 		<fillin textstyle="underline" mathstyle="shade" />
 		<!-- You can set a watermark: -->
@@ -50,11 +50,11 @@
 		<!-- The next elements say how the levels deep to break up the    -->
 		<!-- numbering of the respective elements. Can't be more than the -->
 		<!-- @level on divisions above.                                   -->
-		<division part-structure="decorative" chapter-start="1" level="4"/>
-		<blocks level="0" />
-		<projects level="1" />
-		<equations level="1" />
-		<footnotes level="1" />
+		<division part-structure="decorative" chapter-start="1" level="1"/>
+		<blocks level="1" />
+		<projects level="0" />
+		<equations level="0" />
+		<footnotes level="0" />
 	</numbering>
 
 	<!-- LaTeX specific options: set @print="yes" to get pdf set up   -->
@@ -88,12 +88,12 @@
 		<knowl
 			theorem="no"
 			proof="yes"
+			note="yes"
 			definition="no"
 			example="no"
 			example-solution="yes"
 			project="no"
 			task="no"
-			note="yes"
 			remark="yes"
 			objectives="no"
 			outcomes="no"
@@ -105,7 +105,7 @@
 			exercise-divisional="no"
 			exercise-divisional-answer="no"
 			exercise-worksheet="no"
-			exercise-readingquestion="no"
+			exercise-readingquestion="yes"
 		/>
 		<!-- Specify the style of the html by giving names to      -->
 		<!-- override defaults.  Ex: to use "style_oscarlevin.css" -->
@@ -137,7 +137,7 @@
 		<!--      ruby_emerald        -->
 		<!--      ruby_turquoise      -->
 
-		<css style="oscarlevin" colors="pastel_blue_orange"/>
+		<css style="custom-styles" colors="pastel_blue_orange"/>
 		<!-- Search can be default or none, or you can use a Google-cx number to use google's search
 		feature (but then variant should be set to none to avoid conflict) -->
 		<search variant="default" />

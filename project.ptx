@@ -8,67 +8,26 @@
 			<publication>publication/publication.ptx</publication>
 			<output-dir>output/web</output-dir>
 		</target>
-		<target name="custom">
-			<format>html</format>
-			<source>source/main.ptx</source>
-			<publication>publication/publication-custom.ptx</publication>
-			<output-dir>output/custom</output-dir>
-			<stringparam key="html.css.extra" value="external/custom-styles.css"/>
-		</target>
 		<target name="basics">
 			<format>html</format>
 			<source>source/main-basics-focus.ptx</source>
-			<publication>publication/publication-custom.ptx</publication>
+			<publication>publication/publication.ptx</publication>
 			<output-dir>output/basics-only</output-dir>
 			<stringparam key="html.css.extra" value="external/custom-styles.css"/>
 		</target>
 		<target name="sov">
 			<format>html</format>
 			<source>source/main-sov-focus.ptx</source>
-			<publication>publication/publication-custom.ptx</publication>
+			<publication>publication/publication.ptx</publication>
 			<output-dir>output/sov-only</output-dir>
 			<stringparam key="html.css.extra" value="external/custom-styles.css"/>
 		</target>
 		<target name="if">
 			<format>html</format>
 			<source>source/main-if-focus.ptx</source>
-			<publication>publication/publication-custom.ptx</publication>
+			<publication>publication/publication.ptx</publication>
 			<output-dir>output/if-only</output-dir>
 			<stringparam key="html.css.extra" value="external/custom-styles.css"/>
-		</target>
-		<target name="lhcc">
-			<format>html</format>
-			<source>source/main-lhcc-focus.ptx</source>
-			<publication>publication/publication-custom.ptx</publication>
-			<output-dir>output/lhcc-only</output-dir>
-			<stringparam key="html.css.extra" value="external/custom-styles.css"/>
-		</target>
-		<target name="uc">
-			<format>html</format>
-			<source>source/main-uc-focus.ptx</source>
-			<publication>publication/publication-custom.ptx</publication>
-			<output-dir>output/uc-only</output-dir>
-			<stringparam key="html.css.extra" value="external/custom-styles.css"/>
-		</target>
-		<target name="approx">
-			<format>html</format>
-			<source>source/main-approx-focus.ptx</source>
-			<publication>publication/publication-custom.ptx</publication>
-			<output-dir>output/approx-only</output-dir>
-			<stringparam key="html.css.extra" value="external/custom-styles.css"/>
-		</target>
-		<target name="lt">
-			<format>html</format>
-			<source>source/main-lt-focus.ptx</source>
-			<publication>publication/publication-custom.ptx</publication>
-			<output-dir>output/lt-only</output-dir>
-			<stringparam key="html.css.extra" value="external/custom-styles.css"/>
-		</target>
-		<target name="print" pdf-method="xelatex">
-			<format>pdf</format>
-			<source>source/main.ptx</source>
-			<publication>publication/publication.ptx</publication>
-			<output-dir>output/print</output-dir>
 		</target>
 		<target name="print-latex">
 			<format>latex</format>

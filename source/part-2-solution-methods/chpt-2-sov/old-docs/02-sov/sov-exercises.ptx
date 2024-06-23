@@ -1,6 +1,0 @@
-<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sov-exercises"><title> Exercises </title>
-
-	<xi:include href="./exercises/01-sov-sep-form-exercises.ptx" />
-	<xi:include href="./exercises/02-sov-method-exercises.ptx" />
-
-</section>

@@ -1,8 +1,0 @@
-<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="uc-exercises"><title> Exercises </title>
-
-	<xi:include href="./exercises/01-homogeneous-des-exercises.ptx" />
-	<xi:include href="./exercises/02-homogeneous-solution-exercises.ptx" />
-	<xi:include href="./exercises/03-particular-solution-exercises.ptx" />
-	<xi:include href="./exercises/04-undetermined-coefficients-exercises.ptx" />
-	
-</section>

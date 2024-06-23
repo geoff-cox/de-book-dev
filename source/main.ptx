@@ -5,9 +5,8 @@
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
 
 	<xi:include href="00-front-back/book-info.ptx" />
-
-	<book xml:id="main"><title> Step-by-Step Differential Equations </title>
-		<subtitle>An Interactive Approach to Methods &amp; Modeling</subtitle>
+	
+	<book xml:id="main"><title> BASICS FOCUS </title>
 
 		<xi:include href="book-introduction.ptx" />
 
@@ -21,6 +20,7 @@
 				<xi:include href="part-1-fundamentals/chpt-1-introduction/sect-1-examples/p1-c1-s1-intro.ptx" />
 				<xi:include href="part-1-fundamentals/chpt-1-introduction/sect-2-definition/p1-c1-s2-intro.ptx" />
 				<xi:include href="part-1-fundamentals/chpt-1-introduction/sect-3-variables/p1-c1-s3-intro.ptx" />
+				<xi:include href="part-1-fundamentals/chpt-1-introduction/p1-c1-additional-examples.ptx" />
 				<xi:include href="part-1-fundamentals/chpt-1-introduction/p1-c1-summary.ptx" />
 				<xi:include href="part-1-fundamentals/chpt-1-introduction/p1-c1-orphans.ptx" />
 			
@@ -32,7 +32,9 @@
 				<xi:include href="part-1-fundamentals/chpt-2-solutions/sect-1-what-is-a-solution/p1-c2-s1.ptx" />
 				<xi:include href="part-1-fundamentals/chpt-2-solutions/sect-2-verifying-solutions/p1-c2-s2.ptx" />
 				<xi:include href="part-1-fundamentals/chpt-2-solutions/sect-3-types-of-solutions/p1-c2-s3.ptx" />
-				<xi:include href="part-1-fundamentals/chpt-2-solutions/sect-4-initial-conditions/p1-c2-s4.ptx" />
+				<xi:include href="part-1-fundamentals/chpt-2-solutions/sect-4-visualizing-solutions/p1-c2-s4.ptx" />
+				<xi:include href="part-1-fundamentals/chpt-2-solutions/sect-5-initial-conditions/p1-c2-s5.ptx" />
+				<xi:include href="part-1-fundamentals/chpt-2-solutions/p1-c2-additional-examples.ptx" />
 				<xi:include href="part-1-fundamentals/chpt-2-solutions/p1-c2-summary.ptx" />
 				<xi:include href="part-1-fundamentals/chpt-2-solutions/p1-c2-orphans.ptx" />
 			
@@ -52,100 +54,6 @@
 				<xi:include href="part-1-fundamentals/chpt-4-modeling/p1-c4-intro.ptx" />
 				<xi:include href="part-1-fundamentals/chpt-4-modeling/sect-1-modeling/p1-c4-s1-intro.ptx" />
 				<xi:include href="part-1-fundamentals/chpt-4-modeling/p1-c4-summary.ptx" />
-			
-			</chapter>
-
-		</part>
-
-		<part><title> Solution Methods </title>
-
-			<xi:include href="part-2-solution-methods/p2-intro.ptx" />
-			
-			<chapter xmlns:xi="http://www.w3.org/2001/XInclude"><title> Separation of Variables (SOV) </title>
-
-				<xi:include href="part-2-solution-methods/chpt-2-sov/p2-c2-intro.ptx" />
-
-				<section xml:id="p2-c2-s1-separable-form"><title> Separable Form </title>
-
-					<xi:include href="part-2-solution-methods/chpt-2-sov/sect-1-separable-form/p2-c2-s1-intro.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-2-sov/sect-1-separable-form/modules/mod-1-separable-definition.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-2-sov/sect-1-separable-form/modules/mod-2-special-cases.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-2-sov/sect-1-separable-form/modules/mod-3-showing-separable-1.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-2-sov/sect-1-separable-form/modules/mod-4-showing-separable-2.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-2-sov/sect-1-separable-form/p2-c2-s1-orphans.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-2-sov/sect-1-separable-form/p2-c2-s1-exercises.ptx" />
-
-				</section>
-
-				<section xml:id="p2-c2-s2-sov-steps"><title> SOV Steps </title>
-
-					<xi:include href="part-2-solution-methods/chpt-2-sov/sect-2-sov-steps/p2-c2-s2-intro.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-2-sov/sect-2-sov-steps/modules/mod-1-sov-examples-level-1.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-2-sov/sect-2-sov-steps/modules/mod-2-sov-examples-level-2.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-2-sov/sect-2-sov-steps/modules/mod-3-sov-examples-level-3.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-2-sov/sect-2-sov-steps/p2-c2-s2-orphans.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-2-sov/sect-2-sov-steps/p2-c2-s2-exercises.ptx" />
-
-				</section>
-
-				<xi:include href="part-2-solution-methods/chpt-2-sov/modeling/sov-modeling.ptx" />
-				
-			</chapter>
-
-			<xi:include href="part-2-solution-methods/p2-intro.ptx" />
-			
-			<chapter xmlns:xi="http://www.w3.org/2001/XInclude"><title> Direct Integration </title>
-
-				<xi:include href="part-2-solution-methods/chpt-1-di/p2-c1-intro.ptx" />
-				<xi:include href="part-2-solution-methods/chpt-1-di/sect-1-anti-derivative/p2-c1-s1-intro.ptx" />
-				<xi:include href="part-2-solution-methods/chpt-1-di/sect-1-anti-derivative/p2-c1-s1-orphans.ptx" />
-				<xi:include href="part-2-solution-methods/chpt-1-di/sect-1-anti-derivative/p2-c1-s1-exercises.ptx" />
-				
-			</chapter>
-
-			<chapter xmlns:xi="http://www.w3.org/2001/XInclude"><title> Integrating Factor (IF) </title>
-
-				<xi:include href="part-2-solution-methods/chpt-3-if/p2-c3-intro.ptx" />
-		
-				<section xml:id="p2-c3-s1"><title> Product Rule </title>
-
-					<xi:include href="part-2-solution-methods/chpt-3-if/sect-1-product-rule/p2-c3-s1-intro.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-3-if/sect-1-product-rule/modules/mod-1-product-rule-forward.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-3-if/sect-1-product-rule/modules/mod-2-product-rule-backward.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-3-if/sect-1-product-rule/p2-c3-s1-orphans.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-3-if/sect-1-product-rule/p2-c3-s1-exercises.ptx" />
-
-				</section>
-
-				<section xml:id="p2-c3-s2"><title> Integrating Factor </title>
-
-					<xi:include href="part-2-solution-methods/chpt-3-if/sect-2-integrating-factor/p2-c3-s2-intro.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-3-if/sect-2-integrating-factor/modules/mod-1-integrating-factor.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-3-if/sect-2-integrating-factor/p2-c3-s2-orphans.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-3-if/sect-2-integrating-factor/p2-c3-s2-exercises.ptx" />
-
-				</section>
-
-				<section xml:id="p2-c3-s3"><title> IF Method </title>
-
-					<xi:include href="part-2-solution-methods/chpt-3-if/sect-3-if-method/p2-c3-s3-intro.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-3-if/sect-3-if-method/modules/mod-1-if-steps.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-3-if/sect-3-if-method/p2-c3-s3-orphans.ptx" />
-					<xi:include href="part-2-solution-methods/chpt-3-if/sect-3-if-method/p2-c3-s3-exercises.ptx" />
-
-				</section>
-
-				<xi:include href="part-2-solution-methods/chpt-3-if/modeling/if-modeling.ptx" />
-				
-			</chapter>
-
-		</part>
-
-		<part><title> Review Topics </title>
-
-			<chapter xmlns:xi="http://www.w3.org/2001/XInclude"><title> Algebra Review </title>
-
-				<xi:include href="zz-review-topics/review-algebra/exp-logs.ptx" />
 			
 			</chapter>
 

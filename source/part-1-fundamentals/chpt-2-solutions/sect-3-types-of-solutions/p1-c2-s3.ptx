@@ -1,17 +1,14 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude"><title> Types of Solutions </title>
 
-	
-	<introduction>
-		<p>
-			At this point, you should comfortable with the idea that <em> a solution to a differential equation is a function that satisfies it </em>. You have also seen that <xref ref="de-two-solutions" text="custom"> a single differential equation can have more than one solution </xref>. However, this begs the question: 
-			<blockquote>
-				<p>
-					<em><q>How many solutions does a differential equation have?</q></em>
-				</p>
-			</blockquote>
-			The answer depends on the context of the problem and is the focus of this section. To kick-off this discussion, lets start with an example.
-		</p>
-	</introduction>
+	<p>
+		At this point, you should comfortable with the idea that <em> a solution to a differential equation is a function that satisfies it </em>. You have also seen that <xref ref="de-two-solutions" text="custom"> a single differential equation can have more than one solution </xref>. However, this begs the question: 
+		<blockquote>
+			<p>
+				<em><q>How many solutions does a differential equation have?</q></em>
+			</p>
+		</blockquote>
+		The answer depends on the context of the problem and is the focus of this section. To kick-off this discussion, lets start with an example.
+	</p>
 
 	<example xml:id="verification-with-a-constant"><title> <em>Solution Verification with a Constant</em> </title>
 		<p>

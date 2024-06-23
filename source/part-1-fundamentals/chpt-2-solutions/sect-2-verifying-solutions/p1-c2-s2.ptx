@@ -1,22 +1,18 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude"><title> Verifying Solutions </title>
 
-	<introduction>
+	<p>
+		It is worth pointing out that the following differential equations are identical:
+		<me>
+			y^\prime = 3y \quad \text{and} \quad y^\prime - 3y = 0
+		</me>.
+		This means that the solutions to both equations are the same and you are free to use either form when verifying solutions. For a beginner, it is often easier to verify solutions using the second form, as it is easier to see if the left-side of the equation simplifies to zero.
+	</p>
 
+	<assemblage xml:id="move-terms-when-verifying"><title> <em>TIP: Move Terms to the Left-Side before Verifying</em> </title>
 		<p>
-			It is worth pointing out that the following differential equations are identical:
-			<me>
-				y^\prime = 3y \quad \text{and} \quad y^\prime - 3y = 0
-			</me>.
-			This means that the solutions to both equations are the same and you are free to use either form when verifying solutions. For a beginner, it is often easier to verify solutions using the second form, as it is easier to see if the left-side of the equation simplifies to zero.
+			Before verifying solutions, move all terms to the left-side of the equation using subtraction. This makes the right-side zero, simplifying the process.
 		</p>
-
-		<assemblage xml:id="move-terms-when-verifying"><title> <em>TIP: Move Terms to the Left-Side before Verifying</em> </title>
-			<p>
-				Before verifying solutions, move all terms to the left-side of the equation using subtraction. This makes the right-side zero, simplifying the process.
-			</p>
-		</assemblage>
-
-	</introduction>
+	</assemblage>
 
 	<p>
 		<assemblage color="green" xml:id="solution-verification-steps"><title>Solution Verification Steps</title>

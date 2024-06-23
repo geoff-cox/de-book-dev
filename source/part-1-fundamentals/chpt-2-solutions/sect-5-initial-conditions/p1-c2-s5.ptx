@@ -1,10 +1,8 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude"><title> Initial Conditions </title>
 
-	<introduction>
-		<p>
-			When you <q>solve</q> a differential equation, you're actually computing the general solution, which means you have a variety of possible solutions (a family) that differ by at least one constant. However, in real-world problems, you usually need a specific solution from this pool that fits the situation. This is where initial conditions come in.
-		</p>
-	</introduction>
+	<p>
+		When you <q>solve</q> a differential equation, you're actually computing the general solution, which means you have a variety of possible solutions (a family) that differ by at least one constant. However, in real-world problems, you usually need a specific solution from this pool that fits the situation. This is where initial conditions come in.
+	</p>
 
 	<xi:include href="./subsect-1-what-is-an-initial-condition/p1-c2-s5-ss1.ptx" />
 	<xi:include href="./subsect-2-particular-solutions/p1-c2-s5-ss2.ptx" />

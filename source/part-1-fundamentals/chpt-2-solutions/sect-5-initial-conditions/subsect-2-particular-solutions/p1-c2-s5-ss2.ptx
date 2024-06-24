@@ -7,7 +7,7 @@
 	<p>
 		Suppose we want the solution to the differential equation 
 		<me> \frac{dy}{dt} = 2ty - 6t, \quad y(0) = 2 </me>.
-		Etcept for the initial condition, this is the same equation we solved in the previous section, which has the general solution 
+		Except for the initial condition, this is the same equation we solved in the previous section, which has the general solution 
 		<men xml:id="example-general-solution">y = ce^{t^2} + 3</men>. 
 		The initial condition, <m>y(0) = 2</m>, tells us that "<m>y</m> must equal 2 when <m>t</m> is 0". When we substitute <m>y=2</m> and <m>t=0</m> into <xref ref="example-general-solution"/>, we see that we can solve for <m>c</m>.
 	</p>
